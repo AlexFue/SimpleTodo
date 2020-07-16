@@ -90,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
             Log.e("MainActivity", "Error reading items", e);
             items = new ArrayList<>();
         }
+        
     }
     // this function saves items by writing them into the data file
     private void saveItems()
